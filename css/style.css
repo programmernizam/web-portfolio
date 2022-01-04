@@ -5,16 +5,24 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
 .name-highlight{
     color: orange;
 }
-.hero-section{
+.flexible-container{
     display: flex;
+}
+.hero-section{
     background-image: url(../img/top-banner.png);
     background-repeat: no-repeat;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 5%;
 }
 .half-width img{
@@ -30,4 +38,36 @@ h1{
 }
 .link-btn:hover{
     background-image: linear-gradient(45deg,tomato,orange);
+}
+.dream-section{
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-section{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 100px;
+}
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 20px;
+    border-radius: 0px 5px 5px 0px;
+}
+#pro-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
 }
